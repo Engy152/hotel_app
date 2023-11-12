@@ -8,7 +8,7 @@ class HotelCubit extends Cubit<HotelStates>
   HotelCubit():super(AppInitialStates());
   static HotelCubit get(context) => BlocProvider.of(context);
 
-  double slider = 50.0 ;
+  double slider = 50 ;
   void sliderValue (value)
   {
     slider = value;

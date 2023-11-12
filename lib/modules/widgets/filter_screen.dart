@@ -79,8 +79,9 @@ class FilterScreen extends StatelessWidget {
                               padding: const EdgeInsets.only(left: 5.0),
                               child: Center(
                                   child: Text(
+                                    HotelCubit.get(context).slider.toString(),
 
-                                      r'540+ $',
+                                      //r'540+ $',
                                   ),
                               ),
                             ),
